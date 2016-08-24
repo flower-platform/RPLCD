@@ -14,6 +14,7 @@ setup(name='RPLCD',
       license='MIT',
       keywords='raspberry, raspberry pi, lcd, liquid crystal, hitachi, hd44780',
       packages=['RPLCD'],
+      py_modules=['LiquidCrystalComponent'],
       platforms=['any'],
       classifiers=[
           'Development Status :: 4 - Beta',
